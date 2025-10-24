@@ -1,0 +1,11 @@
+{
+  "name": "steven_calle",
+  "version": "1.0.0",
+  "description": "Proyecto examen GitHub Actions y Docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Cristian Calle",
+  "license": "ISC"
+}
