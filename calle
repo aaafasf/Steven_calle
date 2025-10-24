@@ -1,0 +1,18 @@
+# Imagen base de Node.js
+FROM node:18
+
+# Directorio de trabajo dentro del contenedor
+WORKDIR /app
+
+# Copiar package.json e instalar dependencias
+COPY package*.json ./
+RUN npm install
+
+# Copiar el resto del código fuente
+COPY . .
+
+# Exponer el puerto si tu app lo necesita
+EXPOSE 3000
+
+# Comando para ejecutar la aplicación
+CMD ["node", "index.js"]
