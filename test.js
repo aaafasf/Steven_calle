@@ -1,7 +1,7 @@
 const { sumar, resta, calculadora } = require('./index');
 
 
-if (sumar(2, 3) === 6) {
+if (sumar(2, 3) === 5) {
   console.log("✔ Test unitario sumar pasado");
 } else {
   console.log("❌ Test unitario sumar fallido");
